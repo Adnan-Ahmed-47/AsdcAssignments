@@ -1,0 +1,63 @@
+/* UNIVERSAL SELECTOR */
+*{
+    color: black;
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+header{
+    background-color: rgb(193, 154, 231);
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+/* ELEMENT SELECTOR */
+section h1{
+    color: black;
+}
+section p{
+    color: aqua;
+}
+section{
+    background-color: rgb(192, 84, 102);
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+/* CLASS SELECTOR */
+.one{
+    color: aqua;
+}
+.two{
+    color: blanchedalmond;
+}
+article{
+    background-color: brown;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+/* ID SELECTOR */
+#one{
+    color: chocolate;
+}
+#two{
+    color: cornflowerblue;
+}
+aside{
+    background-color: chartreuse;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+
+/* SELECTOR SPECIFICITY */
+
+
+
+
+
