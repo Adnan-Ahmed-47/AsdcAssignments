@@ -57,6 +57,23 @@ aside{
 
 /* SELECTOR SPECIFICITY */
 
+.selec{
+    background-color: royalblue;
+}
+.selec ol  li{
+    color: bisque;
+}
+.selec h1{
+    color: white;
+}
+.selec p{
+    color: brown;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+
+
 
 
 
