@@ -1,0 +1,122 @@
+header{
+    text-align: center;
+}
+
+nav{
+    height: 600px;
+    border: 1px solid salmon;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    
+}
+
+.nav-items{
+    height: 500px;
+    background-color: green;
+}
+
+nav .nav-items a{
+    text-decoration: none;
+}
+
+#one{
+    height: 50px;
+    width: 500px;
+    background-color: rebeccapurple;
+}
+
+#two{
+    height: 50px;
+    width: 500px;
+    background-color: bisque;
+}
+
+#three{
+    height: 50px;
+    width: 500px;
+    background-color: palevioletred;
+}
+
+#four{
+    height: 50px;
+    width: 500px;
+    background-color: burlywood;
+}
+
+#five{
+    height: 50px;
+    width: 500px;
+    background-color: teal;
+}
+
+#six{
+    height: 50px;
+    width: 500px;
+    background-color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .pages{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+
+#one, #two, #three, #four, #five, #six, #seven {
+    
+}
+
+#one{
+    height: 50px;
+    width: 50px;
+    background-color: bisque;
+} */
+
+

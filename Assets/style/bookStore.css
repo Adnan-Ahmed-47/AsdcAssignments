@@ -1,0 +1,21 @@
+header{
+    border: 1px solid salmon;
+    /* display: flex; */
+}
+
+nav{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+}
+.logo{    
+    border: 2px solid peru;
+}
+
+.nav-items{
+    border: 2px solid green;
+}
