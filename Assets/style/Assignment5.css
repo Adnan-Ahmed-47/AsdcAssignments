@@ -1,4 +1,4 @@
-header{
+/* header{
     text-align: center;
 }
 
@@ -56,6 +56,34 @@ nav .nav-items a{
     height: 50px;
     width: 500px;
     background-color: cornflowerblue;
+} */
+
+
+/* HERO SECTION */
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#shoes{
+    border: 1px solid gray;
+    height: 300px;
+    width: 350px;
+    border-radius: 8%;
+    margin: 10px 0 0 20px;
+    
+}
+
+.img img{
+    width: 330px;
+    padding: 10px;
+    border-radius: 8%;
+}
+
+.content{
+    padding-left: 20px;
 }
 
 
