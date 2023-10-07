@@ -1,10 +1,11 @@
 .container{
     height: 100vh;
-    background-color: aqua;
+    /* background-color: aqua; */
 
     display: grid;
-    grid-template-columns: 100px 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 1fr 100px;
+    gap: 10px;
 }
 
 #left{
@@ -18,7 +19,84 @@
 #header{
     background-color: aquamarine;
     grid-column-start: 2;
-    grid-column-end: 6;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
 }
+
+#main{
+    background-color: lightsalmon;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#right{
+    background-color: brown;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#footer{
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
+
+
+
+
+
+#left{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+#x{
+    border: 1px dashed gray;
+}
+
+
+#header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+#y{
+    border: 1px dashed gray;
+}
+
+
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+#center{
+    border: 1px dashed gray;
+}
+
+#right{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+#w{
+    border: 1px dashed gray;
+}
+
+
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+#z{
+    border: 1px dashed gray;
+}
+
+
