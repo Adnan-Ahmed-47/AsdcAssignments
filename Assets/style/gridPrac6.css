@@ -1,0 +1,131 @@
+.container{
+    height: 100vh;
+    background-color: aqua;
+
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 100px 1fr 100px;
+    gap: 10px;
+
+    grid-template-areas: 
+    "a a"
+    "b  c"
+    "no c"
+    "d  d"
+    ;
+}
+/* .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.new{
+    background-color: pink;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 130px);
+    gap: 10px;
+
+    grid-template-areas: 
+    "no  no  no  no"
+    "on  on  tw  th"
+    "fo  ei  tw  se"
+    "fi  fi  ni  se"
+    "si  si  si  te";
+
+}
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#one{
+    background-color: gray;
+    grid-area: a;
+}
+#two{
+    background-color: gray;
+    grid-area: b;
+}
+#three{
+    background-color: gray;
+    grid-area: c;
+}
+#four{
+    background-color: gray;
+    grid-area: d;
+}
+
+
+#on{
+    background-color: lightgray;
+    grid-area: on;
+}
+#tw{
+    background-color: lightgray;
+    grid-area: tw;
+}
+#th{
+    background-color: lightgray;
+    grid-area: th;
+}
+#fo{
+    background-color: lightgray;
+    grid-area: fo;
+}
+#fi{
+    background-color: lightgray;
+    grid-area: fi;
+}
+#si{
+    background-color: lightgray;
+    grid-area: si;
+}
+#se{
+    background-color: lightgray;
+    grid-area: se;
+}
+#ei{
+    background-color: lightgray;
+    grid-area: ei;
+}
+#ni{
+    background-color: lightgray;
+    grid-area: ni;
+}
+#te{
+    background-color: lightgray;
+    grid-area: te;
+}
+
+
+
+/* #five{
+    background-color: gray;
+    grid-area: 5;
+}
+#six{
+    background-color: gray;
+    grid-area: 6;
+}
+#seven{
+    background-color: gray;
+    grid-area: 7;
+}
+#eight{
+    background-color: gray;
+    grid-area: 8;
+}
+#nine{
+    background-color: gray;
+    grid-area: 9;
+}
+#ten{
+    background-color: gray;
+    grid-area: 10;
+} */

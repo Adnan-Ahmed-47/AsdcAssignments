@@ -1,59 +1,160 @@
 .container{
     height: 100vh;
-    background-color: rgba(125, 189, 189, 0.447);
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(11, 1fr);
     gap: 10px;
     grid-template-areas:
     "s0 s1 s2 s3 s4 s5 s6 s7"
-    "t1   talk1  talk1  talk4  talk5  talk5  talk9  Talk9"
-    "t2   Talk1  talk1  Talk4  BREAK   BREAK   Talk9  Talk9"
-    "t3   Talk1  Talk1  Talk4  Talk6  Talk6  Talk9  Talk9"
-    "t4   BREAK   BREAK   Talk4  Talk6  Talk6  Talk9  Talk9"
-    "t5   ";
+    "t1   talk1  talk1  talk4  talk5  talk5  talk9  talk9"
+    "t2   talk1  talk1  talk4  break1 break1 talk9  talk9"
+    "t3   talk1  talk1  talk4  talk6  talk6  talk9  talk9"
+    "t4   break2 break2 talk4  talk6  talk6  talk9  talk9"
+    "t5   talk2  talk2  talk2  talk6  talk6  talk9  talk9"
+    "t6   talk2  talk2  talk2  talk6  talk6  talk9  talk9"
+    "t7   break3 break3 break3 break3 break3 break3 break3"
+    "t8   talk7  talk7  no     no     no     talk10 talk10"
+    "t9   talk7  talk7  talk8  talk8  talk8  talk10 talk10"
+    "t10  talk7  talk7  talk8  talk8  talk8  talk10 talk10";
 }
 
 .box{
-    background-color: rgb(20, 87, 69);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(244, 242, 242);
     border-radius: 5px;
 }
 
+                                                    /* STAGES */
 #stage0{
-    background-color: green;
+    background-color: #e7e7e7;
     grid-area: s0;
 }
 
 #stage1{
-    background-color: green;
+    background-color: #e7e7e7;
     grid-area: s1;
 }
-
 #stage2{
-    background-color: blue;
+    background-color: #e7e7e7;
     grid-area: s2;
 }
 #stage3{
-    background-color: pink;
+    background-color: #e7e7e7;
     grid-area: s3;
 }
 #stage4{
-    background-color: red;
+    background-color: #e7e7e7;
     grid-area: s4;
 }
 #stage5{
-    background-color: purple;
+    background-color: #e7e7e7;
     grid-area: s5;
 }
 #stage6{
-    background-color: yellow;
+    background-color: #e7e7e7;
     grid-area: s6;
 }
 #stage7{
-    background-color: brown;
+    background-color: #e7e7e7;
     grid-area: s7;
+}
+
+                                                    /* TIME */
+#time1{
+    background-color: #e7e7e7;
+    grid-area: t1;
+}
+#time2{
+    background-color: #e7e7e7;
+    grid-area: t2;
+}
+#time3{
+    background-color: #e7e7e7;
+    grid-area: t3;
+}
+#time4{
+    background-color: orange;
+    grid-area: t4;
+}
+#time5{
+    background-color: #e7e7e7;
+    grid-area: t5;
+}
+#time6{
+    background-color: #e7e7e7;
+    grid-area: t6;
+}
+#time7{
+    background-color: orange;
+    grid-area: t7;
+}
+#time8{
+    background-color: #e7e7e7;
+    grid-area: t8;
+}
+#time9{
+    background-color: #e7e7e7;
+    grid-area: t9;
+}
+#time10{
+    background-color: #e7e7e7;
+    grid-area: t10;
+}
+
+
+                                                /* TALK */
+
+#talk1{
+    background-color: rgb(117, 209, 240);
+    grid-area: talk1;
+}
+#talk2{
+    background-color: rgb(117, 209, 240);
+    grid-area: talk2;
+}
+#talk4{
+    background-color: rgb(101, 202, 101);
+    grid-area: talk4;
+}
+#talk5{
+    background-color: rgb(208, 115, 98);
+    grid-area: talk5;
+}
+#talk6{
+    background-color: rgb(208, 115, 98);
+    grid-area: talk6;
+}
+#talk7{
+    background-color: rgb(117, 209, 240);
+    grid-area: talk7;
+}
+#talk8{
+    background-color: rgb(101, 202, 101);
+    grid-area: talk8;
+}
+#talk9{
+    background-color: rgb(201, 201, 53);
+    grid-area: talk9;
+}
+#talk10{
+    background-color: rgb(201, 201, 53);
+    grid-area: talk10;
+}
+
+
+
+/* BREAK */
+
+#break1{
+    background-color: #e7e7e7;
+    grid-area: break1;
+}
+#break2{
+    background-color: #e7e7e7;
+    grid-area: break2;
+}
+#break3{
+    background-color: #e7e7e7;
+    grid-area: break3;
 }
