@@ -1,11 +1,15 @@
 .container{
     height: 100vh;
-    background-color: aqua;
+    background-color: #000000;
 
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-rows: 100px 100px 1fr 100px;
     gap: 10px;
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
 
     grid-template-areas: 
     "a a"
@@ -20,14 +24,16 @@
     align-items: center;
 } */
 
-
+/* __________________________________________________ NEW DIV __________________________________________________________________________________ */
 .new{
     background-color: pink;
     
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 130px);
+    grid-template-rows: repeat(4, 130px);
     gap: 10px;
+
+
 
     grid-template-areas: 
     "no  no  no  no"
@@ -45,87 +51,91 @@
 
 
 #one{
-    background-color: gray;
+    background-image: linear-gradient(
+        to right,
+        dodgerblue,
+        rgb(73, 143, 213),
+        #c7517c,
+        #ed6ea0);
+        
     grid-area: a;
 }
 #two{
-    background-color: gray;
-    grid-area: b;
+    background-image: linear-gradient(
+        to right,
+        dodgerblue,
+        rgb(73, 143, 213),
+        #c7517c,
+        #ed6ea0);    
+
+
+        
+        grid-area: b;
 }
 #three{
-    background-color: gray;
-    grid-area: c;
+    background-image: linear-gradient(
+        to right,
+        dodgerblue,
+        rgb(73, 143, 213),
+        #c7517c,
+        #ed6ea0);  
+
+        grid-area: c;
+
+        /* margin: 10px; */
+
+        padding: 10px;
 }
 #four{
-    background-color: gray;
+    background-image: linear-gradient(
+        to right,
+        dodgerblue,
+        rgb(73, 143, 213),
+        #c7517c,
+        #ed6ea0);
+        
     grid-area: d;
 }
 
+/* __________________________________________________ NEW DIV ENDS __________________________________________________________________________________ */
 
 #on{
-    background-color: lightgray;
+    background-color: #c1daf7;
     grid-area: on;
 }
 #tw{
-    background-color: lightgray;
+    background-color: #c1daf7;
     grid-area: tw;
 }
 #th{
-    background-color: lightgray;
+    background-color: #c1daf7;
     grid-area: th;
 }
 #fo{
-    background-color: lightgray;
+    background-color: #c1daf7;
     grid-area: fo;
 }
 #fi{
-    background-color: lightgray;
+    background-color: #c1daf7;
     grid-area: fi;
 }
 #si{
-    background-color: lightgray;
+    background-color: #c1daf7;
     grid-area: si;
 }
 #se{
-    background-color: lightgray;
+    background-color: #c1daf7;
     grid-area: se;
 }
 #ei{
-    background-color: lightgray;
+    background-color: #c1daf7;
     grid-area: ei;
 }
 #ni{
-    background-color: lightgray;
+    background-color: #c1daf7;
     grid-area: ni;
 }
 #te{
-    background-color: lightgray;
+    background-color: #c1daf7;
     grid-area: te;
 }
-
-
-
-/* #five{
-    background-color: gray;
-    grid-area: 5;
-}
-#six{
-    background-color: gray;
-    grid-area: 6;
-}
-#seven{
-    background-color: gray;
-    grid-area: 7;
-}
-#eight{
-    background-color: gray;
-    grid-area: 8;
-}
-#nine{
-    background-color: gray;
-    grid-area: 9;
-}
-#ten{
-    background-color: gray;
-    grid-area: 10;
-} */
