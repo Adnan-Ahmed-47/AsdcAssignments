@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 800px;
+    width: 800px;
+    border: 1px solid;
+
+    margin: 0 auto;
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(8,100px);
+    grid-template-rows: repeat(8,100px);
+
+    grid-template-areas: 
+
+    
+
+
+    /* "white  black  white  black  white  black  white  black"
+    "black  white  black  white  black  white  black  white"
+    "white  black  white  black  white  black  white  black"
+    "black  white  black  white  black  white  black  white"
+    "white  black  white  black  white  black  white  black"
+    "black  white  black  white  black  white  black  white"
+    "white  black  white  black  white  black  white  black"
+    "black  white  black  white  black  white  black  white"; */
+}
+
+
+#w{
+    background-color: gray;
+    grid-area: white;
+}
+
+#b{
+    background-color: black;
+    grid-area: black;
+}
+
+/* .items{
+    border:1px solid;
+    height: 40px;
+}
+.items:nth-child(2n){
+    background-color: black;
+} */
