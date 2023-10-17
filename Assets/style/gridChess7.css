@@ -11,39 +11,20 @@
     margin-top: 30px;
 
     display: grid;
-    grid-template-columns: repeat(8,100px);
-    grid-template-rows: repeat(8,100px);
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
 
-    grid-template-areas: 
-
-    
-
-
-    /* "white  black  white  black  white  black  white  black"
-    "black  white  black  white  black  white  black  white"
-    "white  black  white  black  white  black  white  black"
-    "black  white  black  white  black  white  black  white"
-    "white  black  white  black  white  black  white  black"
-    "black  white  black  white  black  white  black  white"
-    "white  black  white  black  white  black  white  black"
-    "black  white  black  white  black  white  black  white"; */
 }
 
-
-#w{
-    background-color: gray;
-    grid-area: white;
+.box:nth-child(9n){
+    order: 1;
 }
 
-#b{
+.box:nth-child(odd){
     background-color: black;
-    grid-area: black;
+}
+.box:nth-child(even){
+    background-color: white;
 }
 
-/* .items{
-    border:1px solid;
-    height: 40px;
-}
-.items:nth-child(2n){
-    background-color: black;
-} */
+
