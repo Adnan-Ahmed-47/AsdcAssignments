@@ -16,7 +16,7 @@
 
 }
 
-.box:nth-child(2n+1){
+.box:nth-child(9n){
     order: 1;
 }
 
